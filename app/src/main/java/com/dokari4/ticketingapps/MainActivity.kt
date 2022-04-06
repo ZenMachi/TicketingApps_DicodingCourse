@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        supportActionBar?.hide()
 
         val seatView = findViewById<SeatsView>(R.id.seatsView)
         val button = findViewById<Button>(R.id.finishButton)
